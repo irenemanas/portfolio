@@ -12,9 +12,8 @@
     flex-direction: column;
     width: 100%;
     padding: 10px 20px;
-    //scroll-margin-block: 50px;
     &--title {
-      font-family: "Roboto", sans-serif;
+      font-family: $font-main;
       font-size: 60px;
       font-weight: 200;
       color: white;
@@ -36,7 +35,7 @@
       width: 200px;
     }
     &--text {
-      font-family: "Roboto", sans-serif;
+      font-family: $font-main;
       text-align: center;
     }
     &--title {
