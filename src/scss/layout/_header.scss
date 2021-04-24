@@ -4,6 +4,8 @@
   padding: 12px 24px;
   background-color: white;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 10;
   &__list {
     display: flex;
@@ -15,6 +17,10 @@
       font-size: 24px;
       list-style: none;
       text-transform: capitalize;
+    }
+    &--link {
+      text-decoration: none;
+      color: black;
     }
   }
 }
