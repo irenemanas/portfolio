@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Irene Manas Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Questrial&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
@@ -12,54 +16,78 @@
   <body>
     <div class="page">
       <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list--element">about</li>
+            <li class="nav__list--element">work</li>
+            <li class="nav__list--element">contact</li>
+          </ul>
+        </nav>
       </header>
 
       <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
+        <section class="profile">
+          <div class="profile__container">
+            <h1 class="profile__container--title">irene manas</h1>
+          </div>
+        </section>
+        <section class="work">
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/trib-page.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">tribute page</h4>
+              <p class="work__element--tech">html | css</p>
+            </div>
+          </div>
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/surv-form.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">survey form</h4>
+              <p class="work__element--tech">html | css</p>
+            </div>
+          </div>
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/prod-page.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">product page</h4>
+              <p class="work__element--tech">html | css</p>
+            </div>
+          </div>
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/doc-page.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">documentation page</h4>
+              <p class="work__element--tech">html | sass</p>
+            </div>
+          </div>
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/r&m-spa.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">rick & morty spa</h4>
+              <p class="work__element--tech">react</p>
+            </div>
+          </div>
+          <div class="work__element">
+            <img class="work__element--img" src="./assets/images/cards.png" alt="" />
+            <div class="work__element--text">
+              <h4 class="work__element--title">cards app</h4>
+              <p class="work__element--tech">react</p>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <div class="contact__container">
+            <h2 class="contact__title">let's work together...</h2>
+            <h4 class="contact__subtitle">contact me</h4>
+            <section class="contact__social"></section>
+          </div>
+        </section>
       </main>
 
       <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+        <div class="page__footer--container">
+          <small>&copy; Irene Mañas </small>
+        </div>
       </footer>
 
     </div>
