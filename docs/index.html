@@ -18,68 +18,103 @@
       <header class="page__header">
         <nav class="nav">
           <ul class="nav__list">
-            <li class="nav__list--element">about</li>
-            <li class="nav__list--element">work</li>
-            <li class="nav__list--element">contact</li>
+            <li class="nav__list--element"><a href="#about" class="nav__list--link">about</a></li>
+            <li class="nav__list--element"><a href="#work" class="nav__list--link">work</a></li>
+            <li class="nav__list--element"><a href="#contact" class="nav__list--link">contact</a></li>
           </ul>
         </nav>
       </header>
 
       <main class="page__main">
-        <section class="profile">
-          <div class="profile__container">
-            <h1 class="profile__container--title">irene manas</h1>
+        <section class="about" id="about">
+          <div class="about__quote">
+            <p class="about__quote--text">"I am courageous, detail-oriented and responsible to any task that I assume"</p>
+          </div>
+          <div class="about__container">
+            <h1 class="about__container--title">irene mañas</h1>
+            <h4 class="about__container--subtitle">front-end developer</h4>
           </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/trib-page.png" alt="" />
+            <a
+              href="
+            https://irenemanas.github.io/tribute-page-carmen-alcaide/"
+              target="_blank"
+              ><img class="work__element--img" src="./assets/images/trib-page.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">tribute page</h4>
               <p class="work__element--tech">html | css</p>
             </div>
           </div>
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/surv-form.png" alt="" />
+            <a href="https://irenemanas.github.io/portfolio-survey-form/" target="_blank"
+              ><img class="work__element--img" src="./assets/images/surv-form.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">survey form</h4>
               <p class="work__element--tech">html | css</p>
             </div>
           </div>
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/prod-page.png" alt="" />
+            <a href="https://irenemanas.github.io/product-page/" target="_blank"
+              ><img class="work__element--img" src="./assets/images/prod-page.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">product page</h4>
               <p class="work__element--tech">html | css</p>
             </div>
           </div>
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/doc-page.png" alt="" />
+            <a href="irenemanas.github.io/js-documentation-page/" target="_blank"
+              ><img class="work__element--img" src="./assets/images/doc-page.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">documentation page</h4>
               <p class="work__element--tech">html | sass</p>
             </div>
           </div>
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/r&m-spa.png" alt="" />
+            <a href="https://irenemanas.github.io/modulo-3-evaluacion-final-irenemanas/#/" target="_blank"
+              ><img class="work__element--img" src="./assets/images/r&m-spa.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">rick & morty spa</h4>
               <p class="work__element--tech">react</p>
             </div>
           </div>
           <div class="work__element">
-            <img class="work__element--img" src="./assets/images/cards.png" alt="" />
+            <a href="https://awesome-profile-cards-team-7.herokuapp.com/#/" target="_blank"
+              ><img class="work__element--img" src="./assets/images/cards.png" alt=""
+            /></a>
             <div class="work__element--text">
               <h4 class="work__element--title">cards app</h4>
               <p class="work__element--tech">react</p>
             </div>
           </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
           <div class="contact__container">
-            <h2 class="contact__title">let's work together...</h2>
+            <h2 class="contact__title">Let's work together...</h2>
             <h4 class="contact__subtitle">contact me</h4>
-            <section class="contact__social"></section>
+            <section class="contact__social">
+              <ul class="contact__social--list">
+                <li class="contact__social--element">
+                  <div class="contact__social--circle"></div>
+                  <a class="contact__social--link" href="">Telephone</a>
+                </li>
+                <li class="contact__social--element">
+                  <span class="contact__social--circle"></span><a class="contact__social--link" href="">Email</a>
+                </li>
+                <li class="contact__social--element">
+                  <span class="contact__social--circle"></span><a class="contact__social--link" href="">Linkedin</a>
+                </li>
+                <li class="contact__social--element">
+                  <span class="contact__social--circle"></span><a class="contact__social--link" href="">GitHub</a>
+                </li>
+              </ul>
+            </section>
           </div>
         </section>
       </main>
