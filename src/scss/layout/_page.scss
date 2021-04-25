@@ -24,6 +24,9 @@
       font-size: 16px;
       font-style: italic;
       color: white;
+      @media all and (min-width: 768px) {
+        font-size: 36px;
+      }
     }
   }
   &__container {
@@ -32,12 +35,18 @@
     width: 100%;
     padding: 32vh 20vw 5vh 5vw;
     margin: 0 5px;
+    @media all and (min-width: 768px) {
+      padding-top: 400px;
+    }
     &--title {
       font-family: $font-main;
       font-size: 60px;
       font-weight: 200;
       color: white;
       text-transform: uppercase;
+      @media all and (min-width: 768px) {
+        font-size: 80px;
+      }
     }
     &--subtitle {
       font-family: $font-main;
@@ -45,6 +54,9 @@
       padding-left: 3px;
       color: white;
       text-transform: capitalize;
+      @media all and (min-width: 768px) {
+        font-size: 36px;
+      }
     }
   }
 }
@@ -63,7 +75,7 @@
   }
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 20px 50px;
+    margin: 20px 6px;
   }
   &__element {
     display: flex;
@@ -115,16 +127,25 @@
   &__title {
     font-size: 28px;
     font-weight: 200;
+    @media all and (min-width: 768px) {
+      font-size: 48px;
+    }
   }
   &__subtitle {
     font-size: 28px;
     font-weight: 400;
+    @media all and (min-width: 768px) {
+      font-size: 48px;
+    }
   }
   &__social {
     padding-top: 40px;
-
     &--list {
       list-style: none;
+      @media all and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
     }
     &--element {
       color: white;
@@ -132,6 +153,9 @@
       flex-direction: row;
       align-items: center;
       padding-bottom: 30px;
+      @media all and (min-width: 768px) {
+        padding-left: 30px;
+      }
     }
     &--circle {
       height: 40px;
@@ -147,6 +171,9 @@
       font-size: 14px;
       font-weight: 200;
       padding: 5px 5px;
+      @media all and (min-width: 768px) {
+        font-size: 26px;
+      }
     }
   }
 }
