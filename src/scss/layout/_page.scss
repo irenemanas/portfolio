@@ -16,8 +16,7 @@
   }
   &__quote {
     text-align: right;
-    margin: 0 5px;
-    padding: 5vh 5vw 10vh 50vw;
+    padding: 25px 25px 25px 200px;
     &--text {
       font-family: $font-main;
       font-weight: 200;
@@ -33,10 +32,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 32vh 20vw 5vh 5vw;
     margin: 0 5px;
+    padding: 160px 25px 25px 15px;
+    @media all and (min-width: 550px) {
+      padding-top: 200px;
+    }
     @media all and (min-width: 768px) {
-      padding-top: 400px;
+      padding-top: 300px;
     }
     &--title {
       font-family: $font-main;
