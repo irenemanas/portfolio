@@ -22,6 +22,10 @@
     &--link {
       text-decoration: none;
       color: black;
+      transition: font-weight ease 1s, font-size ease 1s;
+      &:hover {
+        font-weight: 400;
+      }
     }
   }
 }
