@@ -86,13 +86,14 @@
     align-items: center;
     justify-content: center;
     padding: 20px 20px;
+    border-radius: 20px;
     animation-duration: 5s;
     animation-name: project;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     @keyframes project {
       from {
-        transform: scale(10) rotate(-150deg);
+        transform: scale(2) translate(0, -50px);
       }
     }
 
