@@ -24,6 +24,8 @@
     padding-top: 10px;
     @media all and (min-width: 1120px) {
       padding-left: 70vw;
+      margin-right: 80px;
+      padding-top: 30px;
     }
     &--text {
       text-align: right;
@@ -47,6 +49,10 @@
     height: 70vh;
     margin-left: 16px;
     margin-top: 40px;
+    @media all and (min-width: 1120px) {
+      margin-left: 65px;
+      margin-top: 30px;
+    }
     &--title {
       font-family: $font-main;
       font-size: 60px;
@@ -86,6 +92,9 @@
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 20px 6px;
+  }
+  @media all and (min-width: 1120px) {
+    margin: 20px 80px;
   }
   &__element {
     display: flex;
@@ -151,6 +160,9 @@
       @media all and (min-width: 768px) {
         font-size: 42px;
       }
+      @media all and (min-width: 1120px) {
+        font-size: 60px;
+      }
     }
     &--subtitle {
       font-size: 34px;
@@ -161,17 +173,34 @@
       @media all and (min-width: 768px) {
         font-size: 42px;
       }
+      @media all and (min-width: 1120px) {
+        font-size: 60px;
+      }
     }
   }
   &__social {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      padding-top: 80px;
+    }
+    @media all and (min-width: 1120px) {
+      flex-direction: row;
+      padding-top: 120px;
+    }
     &--top {
       list-style: none;
+      @media all and (min-width: 1120px) {
+        transform: translate(-20px);
+      }
     }
     &--bot {
       list-style: none;
+      @media all and (min-width: 1120px) {
+        padding-left: 60px;
+      }
     }
     &--element {
       color: white;
@@ -196,22 +225,37 @@
       @media all and (min-width: 768px) {
         font-size: 22px;
       }
+      @media all and (min-width: 1120px) {
+        font-size: 32px;
+      }
     }
   }
 }
 .fa-phone {
   color: white;
   font-size: 32px;
+  @media all and (min-width: 1120px) {
+    font-size: 44px;
+  }
 }
 .fa-envelope {
   color: white;
   font-size: 28px;
+  @media all and (min-width: 1120px) {
+    font-size: 32px;
+  }
 }
 .fa-linkedin-square {
   color: white;
   font-size: 32px;
+  @media all and (min-width: 1120px) {
+    font-size: 44px;
+  }
 }
 .fa-github {
   color: white;
   font-size: 32px;
+  @media all and (min-width: 1120px) {
+    font-size: 44px;
+  }
 }

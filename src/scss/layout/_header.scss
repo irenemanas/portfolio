@@ -7,6 +7,12 @@
   top: 0;
   left: 0;
   z-index: 10;
+  @media all and (min-width: 768px) {
+    padding: 12px 50px;
+  }
+  @media all and (min-width: 1120px) {
+    padding: 12px 80px;
+  }
   &__list {
     display: flex;
     flex-direction: row;
@@ -21,10 +27,6 @@
     &--link {
       text-decoration: none;
       color: black;
-      transition: font-weight ease 1s, font-size ease 1s;
-      &:hover {
-        font-weight: 400;
-      }
     }
   }
 }
